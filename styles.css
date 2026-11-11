@@ -1,0 +1,56 @@
+.smart-link-modal .smart-link-field-wrap {
+  display: block;
+}
+
+.smart-link-modal .smart-link-field-wrap .setting-item-control {
+  display: block;
+  width: 100%;
+}
+
+.smart-link-modal .smart-link-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.smart-link-modal .smart-link-selected-text {
+  opacity: 0.75;
+}
+
+.smart-link-suggestions {
+  max-height: 180px;
+  overflow-y: auto;
+  margin-top: 6px;
+  border-radius: var(--radius-m);
+}
+
+.smart-link-suggestion {
+  padding: 7px 10px;
+  border-radius: var(--radius-s);
+  cursor: pointer;
+}
+
+.smart-link-suggestion:hover {
+  background: var(--background-modifier-hover);
+}
+
+.smart-link-suggestion-title {
+  font-weight: 500;
+}
+
+.smart-link-suggestion-path {
+  color: var(--text-muted);
+  font-size: var(--font-smaller);
+}
+
+.smart-link-empty {
+  padding: 7px 10px;
+  color: var(--text-muted);
+  font-size: var(--font-smaller);
+}
+
+.smart-link-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 18px;
+}

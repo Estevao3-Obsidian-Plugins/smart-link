@@ -1,0 +1,10 @@
+{
+  "id": "smart-link",
+  "name": "Smart Link",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Create internal links from selected text with file and block ID suggestions.",
+  "author": "estevao3",
+  "authorUrl": "https://github.com/Estevao3",
+  "isDesktopOnly": false
+}
